@@ -1,0 +1,102 @@
+    @import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+    .card-title {
+        font-size: 1em;
+    }
+
+    .card-text {
+        font-size: 0.8em;
+    }
+
+    .card {
+        top: 1.5em;
+        left: 1.5em;
+        margin-right: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    .btn-info {
+        width: 3em;
+        height: 3em;
+        Float: right;
+    }
+
+    .dropdown-item {
+        font-size: 0.9em;
+        color: black;
+        cursor: pointer;
+    }
+
+    .container-card {
+        display: flex;
+        justify-content: left;
+        margin: 50px;
+        /* margin-right: 50px; */
+    }
+
+    .texto{
+        font-family: 'Mitr', sans-serif;
+        text-align: center;
+        margin-top: 6em;
+    }
+
+    .img_download{
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    .img_options{
+        width: 1em;
+        height: 1em;
+    }
+
+    #mb-3{
+       margin: auto;
+       margin-top:6em;
+       width: 35em;
+       display: flex;
+       font-family: 'Mitr', sans-serif;
+    }
+
+    .form-control{
+        margin-right: 0.5em;
+    }
+
+    #btn_salvar{
+        width: 5em;
+        background-color: rgba(80,194,151,255);
+    }
+
+    #btn_salvar:hover{
+        background-color: #204b5d;
+    }
+    
+    .options_icon{
+        width: 1em;
+        height: 1em;
+        margin-left: 0.5em;
+    }
+
+    .toast{
+        margin: auto;
+    }
+
+    #spinner{
+        display: none;
+    }
+
+    #btn_dropdown{
+        border:none!important;
+        outline: none!important;
+        padding:initial;
+        width: 1em;
+        height: 1em;
+        margin: 0 10px 15px 10px;
+        float: right;
+
+    }
+
+    #link{
+        text-decoration: none;
+        color: inherit;
+    }

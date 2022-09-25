@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./img/logo_header.png" type="image/icon type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Página principal</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/logo.png" alt="" width="65" height="55">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Página principal</a>
+                    <a class="nav-link" href="./minhaLista.html">Minha Lista</a>
+                    <a class="nav-link" href="./favoritos.html">Favoritos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="texto"> Salve aqui os arquivos dos seus blogs favoritos
+        <img class="img_download" src="./img/file.png" alt="">
+    </div>
+    <div id="mb-3" class="mb-3">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="https://devgo.com.br/"
+            disabled>
+        <button id="btn_salvar" type="button" class="btn btn-info" onclick="requestImportarArtigos()">Salvar</button>
+    </div>
+    <div id="myToast" class="toast fade" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+        <div class="toast-header">
+            <img src="./img/logo_header.png" class="rounded me-2" alt="..." width="30" height="25">
+            <strong class="me-auto">Save Link</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div id="mytoastBody" class="toast-body"></div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div id="spinner" class="spinner-border text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <script src="./javascrpit/myscript.js"></script>
+</body>
+
+</html>
