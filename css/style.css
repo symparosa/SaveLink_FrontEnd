@@ -34,11 +34,14 @@
         margin: auto;
         margin-top: 6em;
         display: flex;
-        width: 35vw;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .form-control {
         margin-right: 0.5em;
+        min-width: 200px;
     }
 
     #btn_salvar {
