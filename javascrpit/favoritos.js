@@ -19,16 +19,16 @@ window.onload = function Favoritos() {
 function construirCard(objeto) {
 
     var div_container = document.getElementById('container-card');
+    var div_row = document.getElementById('row');
+
     for (var i = 0; i < objeto.length; i++) {
 
-        var div1 = document.createElement('div');
-        div1.id = 'column';
-        div1.className = 'col-8 col-sm-5 col-md-3 d-flex justify-content-center mb5';
+        var div_col = document.createElement('div');
+        div_col.className = 'col';
 
         var div = document.createElement('div');
         div.id = 'card_' + objeto[i]["id"];
-        div.className = 'card';
-        div.style = 'width: 18rem; cursor: pointer;';
+        div.className = 'card h-100';
 
         var a = document.createElement('a');
         a.href = objeto[i]["link"];
@@ -100,8 +100,9 @@ function construirCard(objeto) {
         div.appendChild(a);
         div.appendChild(div_2);
 
-        div1.appendChild(div);
-        div_container.appendChild(div1);
+        div_col.appendChild(div);
+        div_row.appendChild(div_col);
+        div_container.appendChild(div_row);
     }
 }
 
