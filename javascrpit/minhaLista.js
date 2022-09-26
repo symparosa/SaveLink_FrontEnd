@@ -1,5 +1,5 @@
 
-var selectCardId = 0, domain = "http://206.189.200.14";
+var selectCardId = 0, domain = "https://savelink.finalproject.gq";
 
 window.onload = function minhaLista() {
 
