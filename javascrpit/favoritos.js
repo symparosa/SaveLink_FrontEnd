@@ -1,5 +1,5 @@
 
-var domain = "http://localhost:8080";
+var domain = "http://206.189.200.14";
 
 window.onload = function Favoritos() {
 
