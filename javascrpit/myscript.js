@@ -1,4 +1,4 @@
-var cont = 0, domain = "http://localhost:8080";
+var cont = 0, domain = "http://206.189.200.14";
 
 function getMSG(msg) {
     document.getElementById('mytoastBody').innerText = msg;
