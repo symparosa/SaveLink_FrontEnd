@@ -38,11 +38,12 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 0.5em;
     }
 
     .form-control {
-        margin-right: 0.5em;
         min-width: 200px;
+        width: auto !important
     }
 
     #btn_salvar {
