@@ -1,4 +1,4 @@
-var cont = 0, domain = "http://206.189.200.14";
+var cont = 0, domain = "https://savelink.finalproject.gq";
 
 function getMSG(msg) {
     document.getElementById('mytoastBody').innerText = msg;
