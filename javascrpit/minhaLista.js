@@ -1,5 +1,5 @@
 
-var selectCardId = 0, domain = "http://localhost:8080";
+var selectCardId = 0, domain = "http://206.189.200.14";
 
 window.onload = function minhaLista() {
 
